@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../image/logo.gif">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/할리스_header.css">
+    <link rel="stylesheet" href="../css/할리스_main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/slide.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="btn_top">
+            <a href="#"></a>
+        </div>
+        <header class="header header1">
+            <div class="h_top contents_area">
+                <div class="h_top_L">
+                    <div class="open"><a href="#">창업설명회</a></div>
+                    <div class="company"><a href="#">기업특판</a></div>
+                </div>
+                <div class="logo">
+                    <a href="hollys_main.html">logo</a>
+                </div>
+                <div class="h_top_R">
+                    <div class="h_top_R_li"><a href="hollys_login.html">로그인</a></div>
+                    <div class="h_top_R_li"><a href="#">멤버십 가입</a></div>
+                    <div class="h_top_R_li"><a href="#">고객센터</a></div>
+                    <div class="h_top_R_li"><a href="#">English</a></div>
+                </div>
+            </div>
+            <div class="h_bot">
+                <div class="menu">
+                    <div class="menu_item">
+                        <a href="hollys_menu.html?cate_no=0">Menu</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">HOLLYS Mall</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">Membership</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">HOLLYS News</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="#">Store</a>
+                    </div>
+                    <div class="menu_item">
+                        <a href="hollys_aboutus.html">HOLLYS is</a>
+                    </div>
+                    <div class="pan">
+                        <div class="contents_area">
+                            <div class="pan_item" id="pan1">
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=0">COFFEE</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=1">라떼 · 초콜릿 · 티</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=2">할리치노 · 빙수</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=3">스무디 · 주스</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=4">스파클링</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=5">푸드</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=6">MD상품</a>
+                                </div>
+                                <div class="menu_inner">
+                                    <a href="hollys_menu.html?cate_no=7">MD식품</a>
+                                </div>
+                            </div>
+                            <div class="pan_item" id="pan2">
+                                <div class="menu_inner"><a href="#">할리스콘</a></div>
+                                <div class="menu_inner"><a href="#">할리스카드</a></div>
+                                <div class="menu_inner"><a href="#">E-Store</a></div>
+                                <div class="menu_inner"><a href="#">구매내역</a></div>
+                            </div>
+                            <div class="pan_item" id="pan3">
+                                <div class="menu_inner"><a href="#">스마트오더</a></div>
+                                <div class="menu_inner"><a href="#">멤버십 혜택</a></div>
+                            </div>
+                            <div class="pan_item" id="pan4">
+                                <div class="menu_inner"><a href="#">Notice</a></div>
+                                <div class="menu_inner"><a href="#">Event</a></div>
+                            </div>
+                            <div class="pan_item" id="pan5">
+                                <div class="menu_inner"><a href="#">매장검색</a></div>
+                            </div>
+                            <div class="pan_item" id="pan6">
+                                <div class="menu_inner"><a href="hollys_aboutus.html">HOLLYS</a></div>
+                                <div class="menu_inner"><a href="#">할리스 위치 및 연락처</a></div>
+                                <div class="menu_inner"><a href="#">채용 안내</a></div>
+                                <div class="menu_inner"><a href="#">가맹문의 및 절차</a></div>
+                                <div class="menu_inner"><a href="#">B2B 사업 소개</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header2">
+            <div class="header2_l">
+                <div class="hamberg">
+                    <div class="ham_line" id="ham_line_top"></div>
+                    <div class="ham_line" id="ham_line_mid"></div>
+                    <div class="ham_line" id="ham_line_bot"></div>
+                </div>
+                <div class="menu_pan" id="menu_pan">
+                    <div class="ham_menu"><span>Menu</span>
+                        <div class="ham_menu_pan" id="ham_pan1">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=0">COFFEE</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=1">라떼 · 초콜릿 · 티</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=2">할리치노 · 빙수</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=3">스무디 · 주스</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=4">스파클링</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=5">푸드</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=6">MD상품</a>
+                                </div>
+                                <div class="ham_menu_inner">
+                                    <a href="hollys_menu.html?cate_no=7">MD식품</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ham_menu">
+                        <span>HOLLYS Mall</span>
+                        <div class="ham_menu_pan" id="ham_pan2">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner"><a href="#">할리스콘</a></div>
+                                <div class="ham_menu_inner"><a href="#">할리스카드</a></div>
+                                <div class="ham_menu_inner"><a href="#">E-Store</a></div>
+                                <div class="ham_menu_inner"><a href="#">구매내역</a></div>
+                            </div>                        
+                        </div>
+                    </div>                    
+                    <div class="ham_menu">
+                        <span>Membership</span>
+                        <div class="ham_menu_pan" id="ham_pan3">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner"><a href="#">스마트오더</a></div>
+                                <div class="ham_menu_inner"><a href="#">멤버십 혜택</a></div>
+                            </div>                        
+                        </div>
+                    </div>                    
+                    <div class="ham_menu">
+                        <span>HOLLYS News</span>
+                        <div class="ham_menu_pan" id="ham_pan4">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner"><a href="#">Notice</a></div>
+                                <div class="ham_menu_inner"><a href="#">Event</a></div>
+                            </div>                        
+                        </div>
+                    </div>                    
+                    <div class="ham_menu">
+                        <span>Store</span>
+                        <div class="ham_menu_pan" id="ham_pan5">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner"><a href="#">매장검색</a></div>
+                            </div>                        
+                        </div>
+                    </div>                    
+                    <div class="ham_menu">
+                        <span>HOLLYS is</span>
+                        <div class="ham_menu_pan" id="ham_pan6">
+                            <div class="ham_pan_inner">
+                                <div class="ham_menu_inner"><a href="hollys_aboutus.html">HOLLYS</a></div>
+                                <div class="ham_menu_inner"><a href="#">할리스 위치 및 연락처</a></div>
+                                <div class="ham_menu_inner"><a href="#">채용 안내</a></div>
+                                <div class="ham_menu_inner"><a href="#">가맹문의 및 절차</a></div>
+                                <div class="ham_menu_inner"><a href="#">B2B 사업 소개</a></div>
+                            </div>                        
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="logo">
+                <a href="hollys_main.html">logo</a>
+            </div>
+            <div class="h_top_R">
+                <div class="h_top_R_li"><a href="hollys_login.html">로그인</a></div>
+                <div class="h_top_R_li"><a href="#">멤버십 가입</a></div>
+                <div class="h_top_R_li"><a href="#">고객센터</a></div>
+                <div class="h_top_R_li"><a href="#">English</a></div>
+            </div>            
+        </div>
+        <div class="container">
+            <div class="main_banner">
+                <div class="banner banner1"></div>
+                <div class="banner banner2"></div>
+                <div class="banner banner3"></div>
+    
+                <div class="btn_slide" id="btn_slide_L">&lt;</div>
+                <div class="btn_slide" id="btn_slide_R">&gt;</div>
+    
+                <div class="indicator"></div>
+            </div>
+            <section class="sec sec1" id="new_arr">
+                <div class="sec_title">
+                    <span>NEW ARRIVAL</span>
+                </div>
+                <div class="slide_menu">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec sec2" id="store">
+                <div class="sec_title">HOLLYS IS</div>
+                <div class="sec2_box contents_area">
+                    <div class="sec2_img_box">
+                        <img src="../image/main/insta/4.jpg" alt="">
+                    </div>
+                    <div class="sec2_txt_box">
+                        <p class="sec2_p1">커피의 즐거움을 만드는</p>
+                        <p class="sec2_p2">'작은 차이의 미학'</p>
+                        <p class="sec2_p3">할리스는 ‘의미 있는 작은 차이가<br>
+                            평범함과 특별함을 가르는 기준이 된다’고 생각합니다.</p> 
+                    </div>
+                </div>
+            </section>
+            <section class="sec sec3" id="events">
+                <div class="sec_title">What's News</div>
+                <div class="sec3_box contents_area">
+                    <div class="news news1">                        
+                        <div class="new_img">
+                            <a href="https://smartstore.naver.com/hollysstore/products/9179345549">
+                                <img src="../image/main/news/news1.jpg" alt="">
+                            </a>                            
+                        </div>
+                        <div class="news_txt">Hollys Lucky Box</div>
+                    </div>
+                    <div class="news news2">
+                        <div class="new_img">                            
+                            <a href="https://smartstore.naver.com/hollysstore/products/8316772743">
+                                <img src="../image/main/news/news2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news_txt">Hollys Fit</div>
+                    </div>
+                    <div class="news news3">
+                        <div class="new_img">
+                            <a href="https://smartstore.naver.com/hollysstore/products/8535477247">
+                                <img src="../image/main/news/news3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news_txt">Smoothie Stick</div>
+                    </div>                    
+                </div>
+            </section>
+            <div class="sec sec4" id="sns">
+                <div class="sec_title">Follow Us</div>
+                <div class="sec4_box contents_area">                    
+                </div>
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <div class="fot_box">
+                <div class="fot_box_top">
+                    <div class="fot_box_inner">
+                        <div class="fot_img">
+                            <img src="../image/참조/sns/전화.png" alt="">
+                        </div>
+                        <p>대표전화</p> <p>02-2188-7100</p>
+                </div>
+                <div class="fot_box_inner">
+                    <div class="fot_img">
+                        <img src="../image/참조/sns/전구2.png" alt="">
+                    </div>
+                    <p>가맹문의</p> <p>02-6350-7229</span>
+                </div>
+                </div>
+                
+                <hr>                
+                <div class="fot_bot">
+                    <div class="fot_sns_box">
+                        <div class="fot_sns hollys_insta">
+                            <a href="#">
+                                <img src="../image/참조/sns/sns_instagram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="fot_sns hollys_face">
+                            <a href="#">
+                                <img src="../image/참조/sns/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="fot_sns hollys_blog">
+                            <a href="#">
+                                <img src="../image/참조/sns/sns_blog.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">서비스이용약관</a></li>
+                        <li><a href="#">멤버십이용약관</a></li>
+                        <li><a href="#">할리스카드이용약관</a></li>
+                        <li><a href="#">고객문의</a></li>
+                        <li><a href="#">고객설문</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">BI 소개</a></li>
+                    </ul>
+                    <div class="fot_txt_box">
+                        <div class="fot_txt_box_1">
+                            <p>(주) 케이지할리스에프앤비</p>
+                            <p>주소 : 서울특별시 중구 통일로 92, 9층(순화동, 케이지타워)</p>
+                            <p>대표자: 이종현</p>
+                            <p>사업자등록번호 211-87-61044</p>
+                        </div>                        
+                        <div class="last_txt">COPYRIGHT (C) KG HOLLYS F&B. All Rights Reserved.</div>
+                    </div> 
+                </div>
+                
+            </div>            
+        </footer>
+    </div>
+
+
+    
+    <script src="../js/main.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/hollys_main(load_list).js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
